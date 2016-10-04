@@ -1,0 +1,103 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Simple Responsive Framework. */
+
+/* ***** I've removed the colunm classes not used on this assingment, just to keep the code short ******* */
+
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+
+
+
+/***** page specific styles ******/ 
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+}
+
+div {
+	padding: 15px;
+}
+
+article {
+	position: relative;
+	background-color: #999;
+	border: 1px solid black;
+}
+
+article > h2 {
+	font-size: 125%;
+	position: relative;
+	float: right;
+	margin-top: -1px;
+	margin-right: -1px;
+	padding: 3px 27px;
+	border: 1px solid black;
+}
+
+div:nth-child(1) h2 {
+	background-color: #D59898;
+	color: #222;
+}
+
+div:nth-child(2) h2 {
+	background-color: #C14543;
+	color: #eee;
+}
+
+div:nth-child(3) h2 {
+	background-color: #E5D198;
+	color: #222;
+}
+
+article > p {
+	position: relative;
+	padding-top: 3em;
+	color: #222;
+	margin: 9px;
+}
