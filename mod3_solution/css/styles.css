@@ -1,0 +1,29 @@
+body {
+  font-size: 16px;
+  color: #222;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+
+.navbar-brand h1 {
+  color: #222;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#main-content {
+	margin-top: 50px;
+}
+
+#item-text {
+	background-color: #AAA;
+	color: #222;
+	line-height: 1.5em;
+}
+
+#nav-list a {
+	text-align: center;
+}
